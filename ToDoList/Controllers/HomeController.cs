@@ -9,6 +9,7 @@ namespace ToDoList.Controllers
 		public IActionResult Index()
 		{
 			return View();
+
 		}
     }
 }
