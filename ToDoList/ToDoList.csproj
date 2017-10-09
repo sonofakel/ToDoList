@@ -28,5 +28,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ToDoListContext.cs" />
+    <Compile Remove="Controllers\Categories.cs" />
   </ItemGroup>
 </Project>
