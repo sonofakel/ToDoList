@@ -6,11 +6,23 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="1.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="appsettings.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ToDoListContext.cs" />
+  </ItemGroup>
 </Project>
